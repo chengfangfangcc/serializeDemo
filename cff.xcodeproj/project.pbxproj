@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2482E8B219E5DF000F5C46D /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2482E8A219E5DF000F5C46D /* TestModel.m */; };
 		D268EC591F77FDAB00DE3753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D268EC581F77FDAB00DE3753 /* AppDelegate.m */; };
 		D268EC5C1F77FDAB00DE3753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D268EC5B1F77FDAB00DE3753 /* ViewController.m */; };
 		D268EC5F1F77FDAB00DE3753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D268EC5D1F77FDAB00DE3753 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2482E89219E5DF000F5C46D /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		D2482E8A219E5DF000F5C46D /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		D268EC541F77FDAB00DE3753 /* cff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D268EC571F77FDAB00DE3753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D268EC581F77FDAB00DE3753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				D268EC5B1F77FDAB00DE3753 /* ViewController.m */,
 				D268EC6D1F77FDDB00DE3753 /* Person.h */,
 				D268EC6E1F77FDDB00DE3753 /* Person.m */,
+				D2482E89219E5DF000F5C46D /* TestModel.h */,
+				D2482E8A219E5DF000F5C46D /* TestModel.m */,
 				D268EC5D1F77FDAB00DE3753 /* Main.storyboard */,
 				D268EC601F77FDAB00DE3753 /* Assets.xcassets */,
 				D268EC621F77FDAB00DE3753 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D268EC5C1F77FDAB00DE3753 /* ViewController.m in Sources */,
+				D2482E8B219E5DF000F5C46D /* TestModel.m in Sources */,
 				D268EC671F77FDAB00DE3753 /* main.m in Sources */,
 				D268EC6F1F77FDDB00DE3753 /* Person.m in Sources */,
 				D268EC591F77FDAB00DE3753 /* AppDelegate.m in Sources */,

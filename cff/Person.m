@@ -10,19 +10,19 @@
 
 @implementation Person
 
-//归档需要实现的方法
+//序列化   读取实例变量，并把这些数据写到coder中去。序列化数据
 - (void)encodeWithCoder:(NSCoder *)aCoder {
-    [aCoder encodeObject:_name forKey:@"name"];
-    [aCoder encodeInt:_age forKey:@"age"];
+    [aCoder encodeObject:_name forKey:@"kName"];
+    [aCoder encodeInteger:_age forKey:@"kAge"];
 }
 
-//解档需要实现的方法
+//反序列化   从coder中读取数据，保存到相应的变量中，即反序列化数据
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super init]) {
-        _name = [aDecoder decodeObjectForKey:@"name"];
-        _age = [aDecoder decodeIntegerForKey:@"age"];
+        _name = [aDecoder decodeObjectForKey:@"kName"];
+        _age = [aDecoder decodeIntegerForKey:@"kAge"];
     }
-    
+
     return self;
 }
 
